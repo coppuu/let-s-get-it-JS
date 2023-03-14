@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로또 대박</title>
+    <style>
+      body {
+        background-color: rgb(251, 216, 64);
+      }
+
+      .ball {
+        display: inline-block;
+        border: none;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 10px;
+        text-shadow: 2px;
+      }
+
+      #result {
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+      }
+
+      #bonus {
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .searching {
+        border: 3px black solid;
+        background-color: white;
+        margin-top: 50px;
+        width: 600px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="searching">
+        <div id="result">추첨 중</div>
+        <div id="bonus">보너스 볼</div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
